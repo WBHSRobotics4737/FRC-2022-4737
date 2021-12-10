@@ -21,6 +21,8 @@ public class Constants {
     public static final double DRIVETRAIN_BACK_LEFT_ENCODER_OFFSET = -Math.toRadians(165); //165
     public static final double DRIVETRAIN_BACK_RIGHT_ENCODER_OFFSET = -Math.toRadians(350); //350
 
+    public static final int TOPSOLENOID_FORWARDCHANNEL = 0;
+    public static final int TOPSOLENOID_REVERSECHANNEL = 1;
     
     public static final int PRIMARY_CONTROLLER_PORT = 0;
     public static final int SECONDARY_CONTROLLER_PORT = 1;
