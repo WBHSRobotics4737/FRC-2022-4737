@@ -1,7 +1,7 @@
 package org.frcteam2910.c2020.commands;
 
 import edu.wpi.first.wpilibj2.command.CommandBase;
-import org.frcteam2910.c2020.subsystems.DrivetrainSubsystem;
+import org.frcteam2910.c2020.subsystems.drivetrain.DrivetrainSubsystem;
 import org.frcteam2910.common.math.Vector2;
 
 public class BasicDriveCommand extends CommandBase {

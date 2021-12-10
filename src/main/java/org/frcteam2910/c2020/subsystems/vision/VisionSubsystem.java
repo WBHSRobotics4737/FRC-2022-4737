@@ -1,15 +1,18 @@
-package org.frcteam2910.c2020.subsystems;
+package org.frcteam2910.c2020.subsystems.vision;
+
+import java.util.OptionalDouble;
+
+
+import org.frcteam2910.c2020.subsystems.drivetrain.DrivetrainSubsystem;
+import org.frcteam2910.common.math.MathUtils;
+import org.frcteam2910.common.math.Vector2;
+import org.frcteam2910.common.robot.drivers.Limelight;
 
 import edu.wpi.first.networktables.NetworkTableEntry;
 import edu.wpi.first.wpilibj.Timer;
 import edu.wpi.first.wpilibj.shuffleboard.Shuffleboard;
 import edu.wpi.first.wpilibj.shuffleboard.ShuffleboardTab;
 import edu.wpi.first.wpilibj2.command.Subsystem;
-import org.frcteam2910.common.math.MathUtils;
-import org.frcteam2910.common.math.Vector2;
-import org.frcteam2910.common.robot.drivers.Limelight;
-
-import java.util.OptionalDouble;
 
 public class VisionSubsystem implements Subsystem {
     private static final double TARGET_HEIGHT = 98.25;
