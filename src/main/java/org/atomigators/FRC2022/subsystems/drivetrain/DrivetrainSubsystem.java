@@ -1,10 +1,9 @@
-package org.frcteam2910.c2020.subsystems.drivetrain;
+package org.atomigators.FRC2022.subsystems.drivetrain;
 
 import com.ctre.phoenix.motorcontrol.can.TalonFX;
 //import com.ctre.phoenix.motorcontrol.can.WPI_TalonFX;
 import com.revrobotics.CANSparkMax;
 import com.revrobotics.CANSparkMaxLowLevel;
-//import com.ctre.phoenix.sensors.PigeonIMU;
 import com.google.errorprone.annotations.concurrent.GuardedBy;
 import edu.wpi.first.networktables.NetworkTableEntry;
 import edu.wpi.first.wpilibj.AnalogInput;
@@ -15,8 +14,7 @@ import edu.wpi.first.wpilibj.shuffleboard.Shuffleboard;
 import edu.wpi.first.wpilibj.shuffleboard.ShuffleboardLayout;
 import edu.wpi.first.wpilibj.shuffleboard.ShuffleboardTab;
 import edu.wpi.first.wpilibj2.command.Subsystem;
-import org.frcteam2910.c2020.Constants;
-//import org.frcteam2910.c2020.Pigeon;
+import org.atomigators.FRC2022.Constants;
 //import org.frcteam2910.c2020.Robot;
 //import org.frcteam2910.c2020.RobotContainer;
 import org.frcteam2910.common.control.*;

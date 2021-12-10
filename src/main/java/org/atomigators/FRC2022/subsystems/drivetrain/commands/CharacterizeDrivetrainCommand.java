@@ -1,11 +1,11 @@
-package org.frcteam2910.c2020.subsystems.drivetrain.commands;
+package org.atomigators.FRC2022.subsystems.drivetrain.commands;
 
 import edu.wpi.first.networktables.NetworkTableEntry;
 import edu.wpi.first.networktables.NetworkTableInstance;
 import edu.wpi.first.wpilibj.RobotController;
 import edu.wpi.first.wpilibj.Timer;
 import edu.wpi.first.wpilibj2.command.CommandBase;
-import org.frcteam2910.c2020.subsystems.drivetrain.DrivetrainSubsystem;
+import org.atomigators.FRC2022.subsystems.drivetrain.DrivetrainSubsystem;
 import org.frcteam2910.common.math.RigidTransform2;
 import org.frcteam2910.common.math.Rotation2;
 import org.frcteam2910.common.math.Vector2;

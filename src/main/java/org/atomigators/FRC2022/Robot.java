@@ -1,4 +1,4 @@
-package org.frcteam2910.c2020;
+package org.atomigators.FRC2022;
 
 import edu.wpi.first.wpilibj.TimedRobot;
 import edu.wpi.first.wpilibj.smartdashboard.SmartDashboard;
@@ -128,6 +128,7 @@ public class Robot extends TimedRobot {
         CommandScheduler.getInstance().run();
     }
 
+    //Autonomous command
     @Override
     public void autonomousInit() {
         robotContainer.getVisionSubsystem().setLedMode(Limelight.LedMode.DEFAULT);
@@ -140,6 +141,7 @@ public class Robot extends TimedRobot {
         robotContainer.getVisionSubsystem().setLedMode(Limelight.LedMode.OFF);
     }
 
+    //Teleop command
     @Override
     public void teleopInit() {
         robotContainer.getVisionSubsystem().setLedMode(Limelight.LedMode.DEFAULT);

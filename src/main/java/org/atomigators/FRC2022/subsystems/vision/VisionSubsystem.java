@@ -1,9 +1,9 @@
-package org.frcteam2910.c2020.subsystems.vision;
+package org.atomigators.FRC2022.subsystems.vision;
 
 import java.util.OptionalDouble;
 
 
-import org.frcteam2910.c2020.subsystems.drivetrain.DrivetrainSubsystem;
+import org.atomigators.FRC2022.subsystems.drivetrain.DrivetrainSubsystem;
 import org.frcteam2910.common.math.MathUtils;
 import org.frcteam2910.common.math.Vector2;
 import org.frcteam2910.common.robot.drivers.Limelight;

@@ -1,10 +1,10 @@
-package org.frcteam2910.c2020.subsystems.vision.commands;
+package org.atomigators.FRC2022.subsystems.vision.commands;
 
 import edu.wpi.first.wpilibj.RobotController;
 import edu.wpi.first.wpilibj.Timer;
 import edu.wpi.first.wpilibj2.command.CommandBase;
-import org.frcteam2910.c2020.subsystems.drivetrain.DrivetrainSubsystem;
-import org.frcteam2910.c2020.subsystems.vision.VisionSubsystem;
+import org.atomigators.FRC2022.subsystems.drivetrain.DrivetrainSubsystem;
+import org.atomigators.FRC2022.subsystems.vision.VisionSubsystem;
 import org.frcteam2910.common.control.PidConstants;
 import org.frcteam2910.common.control.PidController;
 import org.frcteam2910.common.math.Vector2;

@@ -1,4 +1,4 @@
-package org.frcteam2910.c2020;
+package org.atomigators.FRC2022;
 
 public class Constants {
     public static final int DRIVETRAIN_FRONT_LEFT_DRIVE_MOTOR = 10;
