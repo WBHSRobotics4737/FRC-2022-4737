@@ -1,4 +1,4 @@
-package org.frcteam2910.c2020.commands;
+package org.frcteam2910.c2020.subsystems.drivetrain.commands;
 
 import edu.wpi.first.networktables.NetworkTableEntry;
 import edu.wpi.first.networktables.NetworkTableInstance;

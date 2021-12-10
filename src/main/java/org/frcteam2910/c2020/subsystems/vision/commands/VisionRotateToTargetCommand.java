@@ -1,4 +1,4 @@
-package org.frcteam2910.c2020.commands;
+package org.frcteam2910.c2020.subsystems.vision.commands;
 
 import edu.wpi.first.wpilibj.RobotController;
 import edu.wpi.first.wpilibj.Timer;
