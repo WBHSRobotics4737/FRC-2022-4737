@@ -2,28 +2,39 @@
 // Open Source Software; you can modify and/or share it under the terms of
 // the WPILib BSD license file in the root directory of this project.
 
-package org.atomigators.FRC2022.subsystems.penismatics.commands;
+package org.atomigators.FRC2022.subsystems.penmatics.commands;
 
 import edu.wpi.first.wpilibj.command.Command;
 import org.atomigators.FRC2022.Robot;
-import org.atomigators.FRC2022.subsystems.penismatics.pneuTest;
+//import org.atomigators.FRC2022.subsystems.penmatics.test;
 
 public class penumaticscommand extends Command {
 
-  private pneuTest test;
+  private boolean extended;
 
-  public forwardCommand(pneuTest test) {
-    testSubsystem = test;
+  /**
+   * Add your docs here.
+   */
+  public penumaticscommand(boolean extended) {
+    super();
+    requires(Robot.TEST);
+
+    this.extended = extended;
   }
-
   // Called just before this Command runs the first time
   @Override
-  protected void initialize() {}
+  protected void initialize() {
+    if (extended) {
+      Robot.TEST.extend();
+    } else {
+      Robot.TEST.retract();
+    }
+  }
 
   // Called repeatedly when this Command is scheduled to run
   @Override
   protected void execute() {
-    Robot.TEST.disablePenismatics();
+    //Robot.TEST.disablePenismatics();
   }
 
   // Make this return true when this Command no longer needs to run execute()
